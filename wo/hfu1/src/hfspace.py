@@ -16,7 +16,7 @@ load_dotenv("src/.env")
 hf_token = os.getenv("HF")
 
 # Main Repo ID here
-REPO_ID = "SniffoWomo/me1test1"
+REPO_ID = "SniffoWomo/ma1"
 
 
 # Main function that will call the sub functions
@@ -67,7 +67,7 @@ def hf_create_space():
 
 
 def hf_upload_dirz():
-    header1("Uploading a Folder to Hugging Face Repository")
+    header1(f"Uploading to ${REPO_ID}")
     """
     Upload a folder to a Hugging Face repository.
 
@@ -93,7 +93,7 @@ def hf_upload_dirz():
     """
 
     # Folder to upload
-    local_folder_path = "../me1"  # Path to your local folder
+    local_folder_path = "../app1"  # Path to your local folder
     path_in_repo = ""  # Upload to repo root (change to subdir like "folder/" if needed)
 
     # Upload the folder
@@ -141,7 +141,7 @@ def hf_delete_spaces():
 
     # Config
     repo_ids = [
-        "SniffoWomo/me1test1",
+        "SniffoWomo/ma1",
     ]
     repo_type = "space"
     token = hf_token

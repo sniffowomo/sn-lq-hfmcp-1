@@ -1,3 +1,7 @@
+###########
+# Main gradio app, tutorial mcp server
+###########
+
 import gradio as gr
 
 MAIN_TEXT = """
