@@ -1,5 +1,5 @@
 #!/usr/bin/bash
-# PDTM Do datz
+# This bash srcript is for installing the KL docker image here
 clear
 
 # Colors
@@ -54,6 +54,16 @@ massdnsinstall() {
     eval "$c3"
 }
 
+# Rustscan - nmap faster alternative installation
+# https://github.com/bee-san/RustScan - Official Repo
+rustscan1() {
+    h1 "Rustscan Install"
+    co1="brew install rustscan"
+    echo -e "${GREEN}$co1${NC}"
+    eval "$co1"
+}
+
 # Execution
 massdnsinstall
 pd_all
+rustscan1
