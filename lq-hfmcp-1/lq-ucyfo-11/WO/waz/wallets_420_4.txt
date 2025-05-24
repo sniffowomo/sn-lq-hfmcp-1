@@ -1,0 +1,22 @@
+Starting to generate vanity address...
+Successfully found vanity address in 0.021 seconds.
+Address: 0x420A8Fe13265Df3B9323C3D7681b2854B1309338
+Private Key: 0x6890220d6cc0218032cab963a528672d85643a2c7edf340de6e27861d1900958
+----------------------------------------
+
+Starting to generate vanity address...
+Successfully found vanity address in 0.391 seconds.
+Address: 0x420fFfdA7565D31e9b4b7ebAF0269b5564644656
+Private Key: 0xff630bf91f95d3e7af70c12490b858cd5e0818b2bc6af6fccff9d933a1097bc4
+----------------------------------------
+
+Starting to generate vanity address...
+Successfully found vanity address in 0.152 seconds.
+Address: 0x4202ae8C50861d397Aa050Efff6B303522bA122b
+Private Key: 0xf45d9d7147f7645c9709f1d01aa71cd8a570286208c2ec026f41c0638f492500
+----------------------------------------
+
+Starting to generate vanity address...
+Successfully found vanity address in 0.357 seconds.
+Address: 0x420B701e89307Cc64f3343824881A56ef6F8266e
+Private Key: 0x439d217ec1a17cadc867ff76719941dd28597113583c28f736c3e613a0c22db8

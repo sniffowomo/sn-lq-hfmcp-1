@@ -1,0 +1,4 @@
+{"level":"ERROR","timestamp":"2025-05-21T13:03:58.386494","namespace":"mcp_agent.mcp.mcp_agent_client_session","message":"send_request failed: Session terminated"}
+{"level":"ERROR","timestamp":"2025-05-21T13:03:58.387257","namespace":"mcp_agent.mcp.mcp_connection_manager","message":"agent_one: Lifecycle task encountered an error: unhandled errors in a TaskGroup (1 sub-exception)","data":{"exc_info":true,"data":{"progress_action":"Error","server_name":"agent_one"}}}
+{"level":"ERROR","timestamp":"2025-05-21T13:04:34.426055","namespace":"mcp_agent.mcp.mcp_agent_client_session","message":"send_request failed: Session terminated"}
+{"level":"ERROR","timestamp":"2025-05-21T13:04:34.426616","namespace":"mcp_agent.mcp.mcp_connection_manager","message":"agent_one: Lifecycle task encountered an error: unhandled errors in a TaskGroup (1 sub-exception)","data":{"exc_info":true,"data":{"progress_action":"Error","server_name":"agent_one"}}}

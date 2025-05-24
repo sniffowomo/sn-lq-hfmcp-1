@@ -1,0 +1,3 @@
+Date: 2025-04-24 17:13:17
+Command: cast source 0x4c34050168E0e19EEC6fB6d462BeD51840350c43     -d cmdrun     -e 2JEANQYC4C9S6PKDFWNGVT2UER24T32D2M     -c holesky 
+-------------------------------------------

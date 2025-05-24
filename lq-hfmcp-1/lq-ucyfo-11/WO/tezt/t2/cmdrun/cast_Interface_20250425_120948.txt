@@ -1,0 +1,3 @@
+Date: 2025-04-25 12:09:48
+Command: cast interface 0x7778ae20B067247Bb906488788DB9eB0Ae0c27Ad     -o cmdrun/0x7778ae20B067247Bb906488788DB9eB0Ae0c27Ad.sol     -c sepolia     -e 2JEANQYC4C9S6PKDFWNGVT2UER24T32D2M 
+-------------------------------------------

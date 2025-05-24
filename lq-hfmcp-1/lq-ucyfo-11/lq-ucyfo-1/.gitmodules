@@ -1,0 +1,6 @@
+[submodule "WO/fo/ffs2/lib/chainlink-brownie-contracts"]
+	path = WO/fo/ffs2/lib/chainlink-brownie-contracts
+	url = https://github.com/smartcontractkit/chainlink-brownie-contracts
+[submodule "WO/tezt/t2/lib/openzeppelin-contracts"]
+	path = WO/tezt/t2/lib/openzeppelin-contracts
+	url = https://github.com/OpenZeppelin/openzeppelin-contracts

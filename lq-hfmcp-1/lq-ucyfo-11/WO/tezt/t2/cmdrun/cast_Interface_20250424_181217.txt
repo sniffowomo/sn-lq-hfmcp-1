@@ -1,0 +1,4 @@
+Date: 2025-04-24 18:12:17
+Command: cast interface 0xa3AE6cDcF57E08437B17Ce5C8E53232cc4C876Fc     -o cmdrun/0xa3AE6cDcF57E08437B17Ce5C8E53232cc4C876Fc.sol     -c sepolia     -e 2JEANQYC4C9S6PKDFWNGVT2UER24T32D2M 
+-------------------------------------------
+Saved interface at cmdrun/0xa3AE6cDcF57E08437B17Ce5C8E53232cc4C876Fc.sol

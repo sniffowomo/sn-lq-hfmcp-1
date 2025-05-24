@@ -1,0 +1,30 @@
+// SPDX-License-Identifier: SmellPanty
+
+pragma solidity ^0.8.18;
+
+// ╔══════════════════════════════════════════════════════════════════════════════╗
+// ║...........                      ,:,;coooxxxxkkOOOOOOOOOOOkkkxxo:'.. .........║
+// ║.............        .,:codxxkkkkkkxxkkdxxdlccoodddodddollldxxkOOkd,..........║
+// ║..................,coxxxkkkkkkkkOOOOOOOOOOOOkkkdl;,,;;;:;,;:loxkkOkd'.........║
+// ║.............  .:lodddddxxxxxxxkkkkkkOOOOOkkkkkkxl,.'......';coxxkxdc.........║
+// ║'''''''''.....cooooooooddddddddxxxxkkkkkkkkxxxxddoc,'.     .':oxxxxdo,.'''''..║
+// ║,,,,,;;;;...;oolllllloooooooddddddxxxxxxxxxxxddooolco:..   ..:dxxxdol:.,,,,,,,║
+// ║;;::::ccc..;llccclllllllloooooodddddddddddddoollc::ldxdooc:;cdxxxddolc.:ccc::;║
+// ║:cllloodo'.:ccccccccccclllllllooooodooooooollc:;,;odddxxxxxxxxxdoollc:.ldddooo║
+// ║XNWXKN0do..;::::ccccccccllllllllllolllllcc::;,'.;ldxxxxdooodddddoolcc:,0kOXNNW║
+// ║NNMMKOxdx. .;::::ccccccccccccccccccc::;;,,'....;ccdl:;;;;;:lddddoolc::,kk0NNWM║
+// ║dxkdlxlc: ..'';:::::::::::::::;;;;;,,''....  .;:::;:odxxxdc,looollc:::,odk0OOO║
+// ║OkkOxkkd'....'.',;;;;;;;;;,,,,,,''.........'::cccoddxxdddol;:ollc::c:;';dOxOc.║
+// ║ddodoc;''.  .......',,,,'''............'',;::cloooddoooollc:lol;',,,',,,.:od: ║
+// ║.,..',,,,..    .... ..',,''....  ...'',,',,:cclllllllccccc:clc:,,:;';,,.......║
+// ║..',,,,,'..             .....  . ..'''...',;::cc:::::::;;;,:;,..;,''''; ...   ║
+// ║.',,,,'...            ....         .......',,,,;;,,,,,,,,':;...'.....''     . ║
+// ║',,,'...     .................         ..',,'','''''''''.,'. ........''''.'''.║
+// ║''.....    ......................      ..'',,''''.............. ....''........║
+// ╚══════════════════════════════════════════════════════════════════════════════╝
+
+contract Booty {
+    function getBooty() public pure returns (string memory) {
+        return "Booty!";
+    }
+}

@@ -1,0 +1,4 @@
+Date: 2025-04-25 14:51:58
+Command: cast interface 0xd960606c3c748B5502De2a81756E63ad0E1480c5     -o cmdrun/0xd960606c3c748B5502De2a81756E63ad0E1480c5.sol     -c holesky     -e 2JEANQYC4C9S6PKDFWNGVT2UER24T32D2M 
+-------------------------------------------
+Saved interface at cmdrun/0xd960606c3c748B5502De2a81756E63ad0E1480c5.sol
