@@ -63,7 +63,47 @@ rustscan1() {
     eval "$co1"
 }
 
+# Function to install Nmap, Ncat, and Nping
+install_nmap_tools() {
+    # Update package lists
+    sudo apt-get update
+
+    # Install alien and dpkg if not already installed
+    sudo apt-get install -y alien dpkg wget
+
+    # Define the base URL for Nmap downloads
+    BASE_URL="https://nmap.org/dist"
+
+    # Define the versions and packages to download
+    declare -A packages=(
+        ["nmap"]="nmap-7.92-1.x86_64.rpm"
+        ["ncat"]="ncat-7.92-1.x86_64.rpm"
+        ["nping"]="nping-0.7.92-1.x86_64.rpm"
+    )
+
+    # Loop through each package, download, convert, and install
+    for tool in "${!packages[@]}"; do
+        rpm_file="${packages[$tool]}"
+        deb_file="${rpm_file%.rpm}.deb"
+
+        # Download the RPM package
+        wget "${BASE_URL}/${rpm_file}"
+
+        # Convert RPM to DEB
+        sudo alien --to-deb "${rpm_file}"
+
+        # Install the DEB package
+        sudo dpkg --install "${deb_file}"
+
+        # Clean up downloaded and converted files
+        rm "${rpm_file}" "${deb_file}"
+    done
+
+    echo "Installation of Nmap, Ncat, and Nping is complete."
+}
+
 # Execution
 massdnsinstall
 pd_all
 rustscan1
+install_nmap_tools
