@@ -1,0 +1,51 @@
+usage: huggingface-cli <command> [<args>] upload [-h]
+                                                 [--repo-type {model,dataset,space}]
+                                                 [--revision REVISION]
+                                                 [--private]
+                                                 [--include [INCLUDE ...]]
+                                                 [--exclude [EXCLUDE ...]]
+                                                 [--delete [DELETE ...]]
+                                                 [--commit-message COMMIT_MESSAGE]
+                                                 [--commit-description COMMIT_DESCRIPTION]
+                                                 [--create-pr] [--every EVERY]
+                                                 [--token TOKEN] [--quiet]
+                                                 repo_id [local_path]
+                                                 [path_in_repo]
+
+positional arguments:
+  repo_id               The ID of the repo to upload to (e.g. `username/repo-
+                        name`).
+  local_path            Local path to the file or folder to upload. Wildcard
+                        patterns are supported. Defaults to current directory.
+  path_in_repo          Path of the file or folder in the repo. Defaults to
+                        the relative path of the file or folder.
+
+options:
+  -h, --help            show this help message and exit
+  --repo-type {model,dataset,space}
+                        Type of the repo to upload to (e.g. `dataset`).
+  --revision REVISION   An optional Git revision to push to. It can be a
+                        branch name or a PR reference. If revision does not
+                        exist and `--create-pr` is not set, a branch will be
+                        automatically created.
+  --private             Whether to create a private repo if repo doesn't exist
+                        on the Hub. Ignored if the repo already exists.
+  --include [INCLUDE ...]
+                        Glob patterns to match files to upload.
+  --exclude [EXCLUDE ...]
+                        Glob patterns to exclude from files to upload.
+  --delete [DELETE ...]
+                        Glob patterns for file to be deleted from the repo
+                        while committing.
+  --commit-message COMMIT_MESSAGE
+                        The summary / title / first line of the generated
+                        commit.
+  --commit-description COMMIT_DESCRIPTION
+                        The description of the generated commit.
+  --create-pr           Whether to upload content as a new Pull Request.
+  --every EVERY         If set, a background job is scheduled to create
+                        commits every `every` minutes.
+  --token TOKEN         A User Access Token generated from
+                        https://huggingface.co/settings/tokens
+  --quiet               If True, progress bars are disabled and only the path
+                        to the uploaded files is printed.
