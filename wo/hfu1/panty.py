@@ -1,7 +1,7 @@
 # Main entry point for all huggingface operations
 
-from src.hfrepo import hf_repo_ops
 from src.hfspace import hf_space_ops
+
 
 def main():
     hf_space_ops()

@@ -3,7 +3,7 @@ import gradio as gr
 MAIN_TEXT = """
 # me1test1
 
-![](https://i.ibb.co/hRbWj1N6/image.png)
+> Liqo to sniffo where
 
 1. Testing out markdown in the tab
 2. Note this uses `gr.blocks`

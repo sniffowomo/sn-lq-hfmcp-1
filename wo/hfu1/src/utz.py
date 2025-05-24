@@ -1,17 +1,10 @@
 # Rich Prettifier Code
 # ------------------------------------------------------
 import logging
-from rich import print as rprint  # For rprinting
-from rich.pretty import pprint  # For pretty printing
-from rich import inspect  # For inspect
+
 from rich.console import Console  # For console.print
-from rich.markdown import Markdown  # For markdow
-from rich.panel import Panel  # For Panel()
-from rich import box  # For Panel Boxes
-from rich.prompt import Prompt  # For Prompting
-from rich.style import Style  # For styles colors
-from rich.text import Text  # For text Styles
 from rich.logging import RichHandler
+from rich.panel import Panel  # For Panel()
 from rich.traceback import install
 
 console = Console()  # Standard code to access console
@@ -46,7 +39,7 @@ def header2(text):
         title="Making Repo",
         subtitle="Made",
         style="Italic",
-        border_style="magenta",
+        border_style="green",
     )
     # Print the Panel
     console.print(panel)

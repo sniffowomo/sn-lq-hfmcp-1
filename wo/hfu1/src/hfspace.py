@@ -1,22 +1,22 @@
 # These python functions are for making a space and uploading to a space
 
-from src.utz import header1, header2
 import os
+
 from dotenv import load_dotenv
 from huggingface_hub import (
     create_repo,
-    SpaceHardware,
-    SpaceStorage,
-    upload_folder,
     delete_repo,
+    upload_folder,
 )
+
+from src.utz import header1, header2
 
 # Loading the env file
 load_dotenv("src/.env")
 hf_token = os.getenv("HF")
 
 # Main Repo ID here
-REPO_ID = "Liqo/me1test1"
+REPO_ID = "SniffoWomo/me1test1"
 
 
 # Main function that will call the sub functions
@@ -141,7 +141,7 @@ def hf_delete_spaces():
 
     # Config
     repo_ids = [
-        "Liqo/me1test1",
+        "SniffoWomo/me1test1",
     ]
     repo_type = "space"
     token = hf_token
