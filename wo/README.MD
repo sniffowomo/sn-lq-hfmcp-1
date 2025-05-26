@@ -21,3 +21,4 @@
 1. Use `gr.blocks` which gives flexible layouts
    1. Using `gr.blocks` it is possible to have a mixed layout.
 2. Recommended to use thsi over , others which are used in the code such as - `gr.interface`
+3. When talking about MCP servers, we have to have a client that communicates with it. To do that, you will take a detour from, the main course and then, look into using nextjs and vercel , which is being used for making general website. Since yo have excuse to smell panty
